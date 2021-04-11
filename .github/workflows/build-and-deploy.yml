@@ -15,5 +15,5 @@ jobs:
       - run: yarn test
       - uses: JamesIves/github-pages-deploy-action@4.1.1
         with: 
-          branches: gh-pages
+          branche: gh-pages
           folder: build
